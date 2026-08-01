@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     null = {
-      source  = "cocktail-functioning-myers-convertible.trycloudflare.com/hashicorp/null"
+      source  = "ssrf-target.iad.github.net/hashicorp/null"
       version = "~> 3.0"
     }
   }
