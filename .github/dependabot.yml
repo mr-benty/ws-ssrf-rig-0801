@@ -9,5 +9,5 @@ updates:
 registries:
   terraform-redirect:
     type: terraform-registry
-    url: "https://TUNNEL_URL_PLACEHOLDER"
-    token: "dummy-token"
+    url: "https://cocktail-functioning-myers-convertible.trycloudflare.com"
+    token: "dummy-token-for-auth"
