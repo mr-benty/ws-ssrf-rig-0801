@@ -5,9 +5,9 @@ updates:
     schedule:
       interval: "daily"
     registries:
-      - terraform-redirect
+      - ssrf-canary
 registries:
-  terraform-redirect:
+  ssrf-canary:
     type: terraform-registry
-    url: "https://cocktail-functioning-myers-convertible.trycloudflare.com"
-    token: "dummy-token-for-auth"
+    url: "https://ssrf-target.iad.github.net"
+    token: "dummy-token"
