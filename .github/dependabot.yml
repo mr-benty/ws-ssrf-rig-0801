@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries:
+      - terraform-redirect
+registries:
+  terraform-redirect:
+    type: terraform-registry
+    url: "https://TUNNEL_URL_PLACEHOLDER"
+    token: "dummy-token"
